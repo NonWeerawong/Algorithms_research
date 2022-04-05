@@ -96,6 +96,59 @@ Sorting with time complexity of $`O(nlogn)`$
 **Merge sort**
 **Quick sort**
 
+## Complete Search
+### Find all Subset
+- Recursive
+```cpp
+vector<vector<int>> ans;
+vector<int> res;
+
+void genSubset(int k) {
+	if (k == n) {
+		ans.push_back(res);
+		return;
+	}
+	res.push_back(arr[k]);
+	genSubset(k + 1);
+	res.pop_back();
+	genSubset(k + 1);
+}
+```
+- Iteration (bitmask)
+```cpp
+vector<vector<int>> ans;
+for (int bit = 0; bit < (1 << n); bit++) {
+	vector<int> res;
+	for (int j = 0; j < n; j++) {
+		if (bit & (1 << j)) {
+			res.push_back(arr[j])
+		}
+	}
+	ans.push_back(res);
+}
+```
+### Find all Permutation
+- Recursive
+```cpp
+int chosen[INF]; // INF = max length
+vector<vector<int>> ans;
+vector<int> res;
+
+void permute(int k) {
+	if (k == n) {
+	    ans.push_back(res);
+		return;
+	}
+	for (int i = 0; i < n; i++) {
+		if (chosen[i]) continue;
+		res.push_back(arr[i]);
+		chosen[i] = 1;
+		permute(k + 1);
+		res.pop_back();
+		chosen[i] = 0;
+	}
+}
+```
 ## Implementation
 Common algorithm or problems that have seen most in computer science
 
@@ -178,3 +231,4 @@ int main() {
 	return 0; 
 }
 ```
+
