@@ -17,6 +17,21 @@ class LinkedList:
             # print("DEBUG: head isn't None")
             self.tail.next = newNode
         self.tail = newNode
+    
+    def insertOrderedNode(self, val):
+        newNode = Node(val)
+        if self.head == None:
+            self.head = newNode
+        elif newNode.val <= self.head.val:
+            newNode.next = self.head
+            self.head = newNode
+        else:
+            tmp = self.head
+            while (tmp.next != None and (tmp.next).val < newNode.val):
+                tmp = tmp.next
+            newNode.next = tmp.next
+            tmp.next = newNode
+    
     def deleteNode(self, idx):
         tmp = self.head
         if (tmp != None and idx == 0):
@@ -40,12 +55,18 @@ class LinkedList:
             tmp = tmp.next
 
 l1 = LinkedList()
+l2 = LinkedList()
 
 for val in [1, 2 ,3, 4 ,5]:
     l1.insertNode(val)
-    
+for val in [3, 6, 1, 2, 9]:
+    l2.insertOrderedNode(val)
+
+print("#### l1 #####")
 l1.printList()
 l1.deleteNode(2)
 print("#############")
 l1.printList()
+print("#### l2 ######")
+l2.printList()
 
