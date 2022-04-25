@@ -22,13 +22,13 @@
 	vertex of degree one is called `pendant`
 	- degree of undirected graph นับตามเส้นที่เชื่อมโหนดได้เลย
 	- degree of directed  graph แยกเป็น 2 แบบคือ
-		- in-degree เขียนด้วย `$deg^-(v)$` นับจํานวนที่ลูกศรชี้เข้าหาตัวเอง
-		- out-degree เขียนด้วย `$deg^+(v)$` นับจํานวนที่ลูกศรชี้ออกตัวเอง
-	`$$\sum_{v\in{V}}{deg^-(v)}=\sum_{v\in{V}}{deg^+(v)}=|E|$$`
+		- in-degree เขียนด้วย $`deg^-(v)`$ นับจํานวนที่ลูกศรชี้เข้าหาตัวเอง
+		- out-degree เขียนด้วย $`deg^+(v)`$ นับจํานวนที่ลูกศรชี้ออกตัวเอง
+	$$`\sum_{v\in{V}}{deg^-(v)}=\sum_{v\in{V}}{deg^+(v)}=|E|`$$
 	
 	The Handshaking theorem
 	ทฎษฤีที่ใช้หาจํานวนดีกรีทั้งหมดของ undirected graph
-	`$$2|E|=\sum_{v\in{V}}{deg(v)}$$`
+	$$`2|E|=\sum_{v\in{V}}{deg(v)}`$$
 	จะเห็นว่ากราฟจะเป็นจริงได้ต้องมี ดีกรีไม่เป็นคู่ทั้งหมด ก็ต้องมีโหนดคู่ตัวมีดีกรีเป็นคี่
 	
 - adjacent โหนดเชื่อมติดกัน
