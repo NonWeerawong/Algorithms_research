@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "67a3a11f32f9288e",
+    "type": "split",
+    "children": [
+      {
+        "id": "84ab42c00af21ef2",
+        "type": "leaf",
+        "dimension": 52.683178534571724,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Graph-Theory.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cedd8fac30ed331f",
+        "type": "leaf",
+        "dimension": 47.31682146542826,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Graph-Theory.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0705f36c03274486",
+    "type": "split",
+    "children": [
+      {
+        "id": "19dc6b12f080787c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f694e26e1bfe71e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6192943489d2ff8a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258
+  },
+  "right": {
+    "id": "9ca792601935e056",
+    "type": "split",
+    "children": [
+      {
+        "id": "0938560ad62c35b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "475e9601dc112afc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Graph-Theory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "84ab42c00af21ef2",
+  "lastOpenFiles": [
+    "Graph-Theory.md",
+    "C++.md",
+    "algorithm.md",
+    "C++STL.md",
+    "README.md",
+    "Recursion.md",
+    "images/Precedence.md",
+    "images/Precedence.png"
+  ]
+}
