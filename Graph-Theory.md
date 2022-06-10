@@ -80,6 +80,7 @@
 
 ## Graph Representations
 - Adjacency Matrices
+<<<<<<< HEAD
 	ใน c++ คือการกําหนด Array 2d ขนาด `N*N` โดย N จํานวนโหนดของกราฟทั้งหมด
 	```cpp
 	int adj[N][N];
@@ -251,3 +252,6 @@ output : 0 1 2 3 4 5 6 7 8 9
 ```
 
 # Trees
+=======
+- Adjacency Lists
+>>>>>>> dbdac0b71eb32f3db95dd5ec835bc33c4ace0768
