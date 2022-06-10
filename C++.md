@@ -17,9 +17,13 @@
 - Open MSYS2 and copy paste this code line by line into command line
 ```
 pacman -S git man-pages-posix make vim diffutils
+```
 
+```
 pacman -S mingw-w64-x86_64-gcc
+```
 
+```
 pacman -S mingw-w64-x86_64-SDL2 mingw-w64-x86_64-SDL2_gfx mingw-w64-x86_64-SDL2_image mingw-w64-x86_64-SDL2_mixer mingw-w64-x86_64-SDL2_net mingw-w64-x86_64-SDL2_ttf
 ```
 - Setup C/C++ path in system environment variable by adding a location where you save the file
