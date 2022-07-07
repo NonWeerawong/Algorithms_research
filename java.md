@@ -69,7 +69,6 @@ public class Type {
 }
 ```
 **type casting**
-
 ```java
 public class Type {
   public static void main(String[] args) {
@@ -78,8 +77,6 @@ public class Type {
   }
 }
 ```
-
-
 
 ### Statement 
 - Each statement usually ends with semicolon `;`
